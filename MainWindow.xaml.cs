@@ -19,6 +19,7 @@ namespace HearthbuddyHelper
         }
 
         [DllImport("kernel32.dll")]
+        /// 启动程序
         private static extern int WinExec(string exeName, int operType);
         private static void Delay(int mm)
         {
